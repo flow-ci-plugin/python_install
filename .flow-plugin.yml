@@ -1,0 +1,16 @@
+
+name: python_install
+version: 0.0.1
+language: python
+description: Install dependencies use `pip install -r requirements.txt`
+public: true
+tags:
+  - python
+  - install
+inputs:
+outputs:
+script_path: ./run.sh  
+  
+template: |  
+  
+  
