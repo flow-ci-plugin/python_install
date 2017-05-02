@@ -2,7 +2,10 @@
 name: python_install
 version: 0.0.1
 language: python
-description: Install dependencies use `pip install -r requirements.txt`
+description: "
+  本插件主要是安装包，执行的命令是`pip install -r requirements.txt`，此插件会输出安装的细节，并且安装失败会重试
+- 注意事项
+  有可能会因为包太多安装时间太长导致安装失败"
 public: true
 tags:
   - python
